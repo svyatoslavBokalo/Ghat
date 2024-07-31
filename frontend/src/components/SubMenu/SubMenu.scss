@@ -1,0 +1,15 @@
+.settings-item-modal {
+  position: absolute;
+  z-index: 1;
+  top: 32px;
+  right: 14px;
+
+  width: 163px;
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 10%);
+}
+
+.settings-item-modal-language {
+  padding: 10px;
+}

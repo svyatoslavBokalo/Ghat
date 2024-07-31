@@ -1,0 +1,6 @@
+@Ldis_Project_Reliz.Server_HostAddress = http://localhost:5236
+
+GET {{Ldis_Project_Reliz.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

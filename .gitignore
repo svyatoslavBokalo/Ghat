@@ -1,0 +1,33 @@
+# Ігнорувати всі папки 'node_modules' і 'bin' на всіх рівнях
+**/node_modules/
+**/bin/
+
+# Ігнорувати специфічні файли та папки для Visual Studio та C# проектів
+backend/**/*.suo
+backend/**/*.user
+backend/**/*.userosscache
+backend/**/*.sln.docstates
+
+# Ігнорувати зібрані та тимчасові файли
+backend/**/obj/
+backend/**/[Bb]in/
+backend/**/[Oo]bj/
+backend/**/[Ll]og/
+
+# Ігнорувати файли, які можуть з'явитися в процесі розробки
+backend/**/.vs/
+backend/**/.vscode/
+backend/**/*.swp
+backend/**/*.bak
+backend/**/*.tmp
+backend/**/*.mdf
+backend/**/*.ldf
+backend/**/*.dbmdl
+backend/**/TestResults/
+
+# Ігнорувати конфігураційні файли розробника
+backend/**/appsettings.json
+backend/**/appsettings.Development.json
+
+# Ігнорувати папки, які створюються під час публікації
+backend/**/publish/

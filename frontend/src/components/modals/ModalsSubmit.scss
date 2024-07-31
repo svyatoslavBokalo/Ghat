@@ -1,0 +1,115 @@
+.modal-background {
+  height: 100%;
+  width: 100%;
+  background: #00000033;
+  position: absolute;
+  left: 0;
+  top: 0;
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    button {
+      background: inherit;
+      cursor: pointer;
+    }
+    .modal-content {
+      padding-left: 30px;
+      padding-right: 30px;
+      min-width: 369px;
+      .delete-chat {
+        color: #e70000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+      }
+      .block-delete {
+        color: #e70000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 33px;
+      }
+      h3 {
+        color: #073b4c;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 15px;
+        max-width: 284px;
+      }
+      #exit-accaunt {
+        max-width: 323px;
+      }
+      .delete-gtoup {
+        font-weight: 400;
+        max-width: 335px;
+        span {
+          color: #073b4c;
+          font-family: Roboto;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      background: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 4px;
+      border: 1px solid #ffd166;
+      background: #f8f9fa;
+      padding-top: 15px;
+      padding-bottom: 22px;
+
+      .background-svg {
+        border-radius: 50%;
+        background: #acb5bd;
+        display: flex;
+        height: 100px;
+        width: 100px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .uploadFile--input {
+          &::-webkit-file-upload-button {
+            visibility: hidden;
+          }
+          color: #ffffff00;
+          cursor: pointer;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          position: absolute;
+        }
+      }
+    }
+    .decline-btn {
+      width: 100%;
+      padding: 17px;
+      color: #073b4c;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      border-radius: 4px;
+      border: 1px solid #ffd166;
+      background: #ffd166;
+      margin-top: 12px;
+    }
+  }
+}
